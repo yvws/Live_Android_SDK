@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.live</groupId>
   <artifactId>live_source_arr</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>aar</packaging>
   <build>
       <plugins>
@@ -28,7 +28,7 @@
           </configuration>
         </plugin>
       </plugins>
-    </build>
+  </build>
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
@@ -41,6 +41,18 @@
       <artifactId>kotlin-stdlib</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yvws</groupId>
+      <artifactId>QuickVoice</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yvws</groupId>
+      <artifactId>QuickPlayerAndroid</artifactId>
+      <version>1.0.6</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
@@ -199,18 +211,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.yvws</groupId>
-      <artifactId>QuickVoice</artifactId>
-      <version>1.1.6</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.yvws</groupId>
-      <artifactId>QuickPlayerAndroid</artifactId>
-      <version>1.0.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>com.tencent</groupId>
       <artifactId>mmkv</artifactId>
       <version>2.1.0</version>
@@ -267,7 +267,7 @@
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-auth</artifactId>
-      <version>20.7.0</version>
+      <version>21.2.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -297,12 +297,6 @@
     <dependency>
       <groupId>xyz.doikki.android.dkplayer</groupId>
       <artifactId>dkplayer-ui</artifactId>
-      <version>3.3.7</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>xyz.doikki.android.dkplayer</groupId>
-      <artifactId>player-ijk</artifactId>
       <version>3.3.7</version>
       <scope>runtime</scope>
     </dependency>
@@ -463,6 +457,36 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-core</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-camera2</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-lifecycle</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-view</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-video</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>io.github.razerdp</groupId>
       <artifactId>BasePopup</artifactId>
       <version>3.1.0</version>
@@ -484,6 +508,24 @@
       <groupId>com.github.liangjingkanji</groupId>
       <artifactId>Interval</artifactId>
       <version>1.0.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.getActivity</groupId>
+      <artifactId>Logcat</artifactId>
+      <version>12.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.youth5201314</groupId>
+      <artifactId>banner</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yvws</groupId>
+      <artifactId>Live_Android_Google</artifactId>
+      <version>1.0.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
