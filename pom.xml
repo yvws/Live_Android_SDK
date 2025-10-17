@@ -505,9 +505,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>live</groupId>
-      <artifactId>google</artifactId>
-      <version>unspecified</version>
+      <groupId>com.github.yvws</groupId>
+      <artifactId>Live_Android_Google</artifactId>
+      <version>1.0.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
